@@ -1,6 +1,6 @@
-function User (name, email){
+function BoardMember (name, homeState, training){
   this.name = name;
-  this.email = email;
+  this.homeState = homeState;
   this.sayHello = function(){
     console.log("Hello everybody!");
   }
